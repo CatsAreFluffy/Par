@@ -32,7 +32,7 @@ Number literals mean what they are. If a literal starts with `0`, the next chara
 
     12 034₁5            -- pushes 12, 0, 34, 15
 
-String literals begin and end with <code>&#96;</code>, with <code>\<code> used to escape. Single-character literals can be made with `'`.
+String literals begin and end with <code>&#96;</code>, with <code>\\</code> used to escape. Single-character literals can be made with `'`.
 
     `abc`'d`e\`\t\\f`   -- pushes "abc", "d", and "e`     \f"
 	
